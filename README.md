@@ -1,42 +1,64 @@
-# Genome Quality Analyzer
+# BioGenome_Studio
 
-## About the Project
-Genome Quality Analyzer is a Python-based bioinformatics tool that performs basic analysis of DNA sequences.
+A collection of Python-based bioinformatics projects developed while learning Python for genomic data science. This repository contains beginner-friendly tools for DNA sequence analysis, FASTA file handling, genome analysis, and other bioinformatics applications.
 
-## Features
-- Checks whether a DNA sequence is valid
-- Calculates DNA sequence length
-- Counts nucleotides (A, T, G, C)
-- Calculates GC content
-- Calculates AT content
-- Generates a genome quality report
+---
 
-## Technologies Used
-- Python
+## Completed Projects
 
-## How It Works
-1. User enters a DNA sequence.
-2. The program checks for valid nucleotides.
-3. The sequence length and nucleotide composition are calculated.
-4. GC and AT content percentages are calculated.
-5. A final quality report is displayed.
+### ✅ 01. Genome Quality Analyzer
 
-## Example Input
+**Features:**
 
-ATGCATGC
+* Validates DNA sequences.
+* Counts A, T, G, and C nucleotides.
+* Calculates GC content.
+* Calculates AT content.
+* Displays a formatted analysis report.
 
-## Example Output
+---
 
-Sequence Length: 8 bp
+### ✅ 02. FASTA File Explorer
 
-Nucleotide Count:
-A = 2  
-T = 2  
-G = 2  
-C = 2  
+**Features:**
 
-GC Content: 50.0 %
+* Reads a FASTA file.
+* Extracts the sequence ID.
+* Reads the DNA sequence.
+* Calculates the sequence length.
+* Displays the sequence information in a formatted report.
 
-AT Content: 50.0 %
+---
 
-Analysis Completed
+## Project Roadmap
+
+* ✅ 01_Genome_Quality_Analyzer.py
+* ✅ 02_FASTA_File_Explorer.py
+* ⏳ 03_DNA_RNA_Converter.py
+* ⏳ 04_Protein_Translator.py
+* ⏳ 05_ORF_Finder.py
+* ⏳ 06_Restriction_Enzyme_Analyzer.py
+* ⏳ 07_Mutation_Variant_Detector.py
+* ⏳ 08_Codon_Usage_Analyzer.py
+* ⏳ 09_DNA_Motif_Finder.py
+* ⏳ 10_Sequence_Alignment_Tool.py
+* ⏳ 11_Primer_Design_Assistant.py
+* ⏳ 12_CRISPR_GuideRNA_Finder.py
+* ⏳ 13_Gene_Annotation_Tool.py
+* ⏳ 14_Genome_Visualization_Dashboard.py
+* ⏳ 15_NCBI_Gene_Explorer.py
+
+---
+
+## Folder Structure
+
+```text
+BioGenome_Studio/
+│
+├── 01_Genome_Quality_Analyzer.py
+├── 02_FASTA_File_Explorer.py
+├── README.md
+├── data/
+├── output/
+└── requirements.txt
+```
