@@ -29,27 +29,6 @@ A collection of Python-based bioinformatics projects developed while learning Py
 * Displays the sequence information in a formatted report.
 
 ---
-
-## Project Roadmap
-
-* ✅ 01_Genome_Quality_Analyzer.py
-* ✅ 02_FASTA_File_Explorer.py
-* ⏳ 03_DNA_RNA_Converter.py
-* ⏳ 04_Protein_Translator.py
-* ⏳ 05_ORF_Finder.py
-* ⏳ 06_Restriction_Enzyme_Analyzer.py
-* ⏳ 07_Mutation_Variant_Detector.py
-* ⏳ 08_Codon_Usage_Analyzer.py
-* ⏳ 09_DNA_Motif_Finder.py
-* ⏳ 10_Sequence_Alignment_Tool.py
-* ⏳ 11_Primer_Design_Assistant.py
-* ⏳ 12_CRISPR_GuideRNA_Finder.py
-* ⏳ 13_Gene_Annotation_Tool.py
-* ⏳ 14_Genome_Visualization_Dashboard.py
-* ⏳ 15_NCBI_Gene_Explorer.py
-
----
-
 ## Folder Structure
 
 ```text
