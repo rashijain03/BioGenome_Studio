@@ -48,6 +48,19 @@ Features:
 * Handles stop codons during translation.
 * Displays DNA, RNA, and protein sequences in a formatted report.
 
+# 05. ORF Finder
+
+Features:
+
+* Accepts a DNA sequence from the user.
+* Converts lowercase input to uppercase automatically.
+* Validates the DNA sequence.
+* Finds the start codon (**ATG**).
+* Searches for stop codons (**TAA**, **TAG**, **TGA**).
+* Extracts the Open Reading Frame (ORF).
+* Calculates the ORF length.
+* Displays the DNA sequence, ORF sequence, and ORF length in a formatted report.
+* Shows appropriate messages if the start codon or stop codon is not found.
 
 # Folder Structure
 
