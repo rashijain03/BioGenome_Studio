@@ -2,13 +2,11 @@
 
 A collection of Python-based bioinformatics projects developed while learning Python for genomic data science. This repository contains beginner-friendly tools for DNA sequence analysis, FASTA file handling, genome analysis, and other bioinformatics applications.
 
----
-
 ## Completed Projects
 
-### ✅ 01. Genome Quality Analyzer
+# 01. Genome Quality Analyzer
 
-**Features:**
+Features:
 
 * Validates DNA sequences.
 * Counts A, T, G, and C nucleotides.
@@ -16,11 +14,9 @@ A collection of Python-based bioinformatics projects developed while learning Py
 * Calculates AT content.
 * Displays a formatted analysis report.
 
----
+# 02. FASTA File Explorer
 
-### ✅ 02. FASTA File Explorer
-
-**Features:**
+Features:
 
 * Reads a FASTA file.
 * Extracts the sequence ID.
@@ -28,16 +24,27 @@ A collection of Python-based bioinformatics projects developed while learning Py
 * Calculates the sequence length.
 * Displays the sequence information in a formatted report.
 
----
-## Folder Structure
+# 03. DNA RNA Converter
 
-```text
+Features:
+
+* Accepts a DNA sequence from the user.
+* Converts lowercase input to uppercase automatically.
+* Validates the DNA sequence.
+* Converts DNA into RNA by replacing **T** with **U**.
+* Displays the DNA sequence and RNA sequence in a formatted report.
+* Shows an error message for invalid DNA sequences.
+
+
+# Folder Structure
+
 BioGenome_Studio/
 │
 ├── 01_Genome_Quality_Analyzer.py
 ├── 02_FASTA_File_Explorer.py
+├── 03_DNA_RNA_Converter.py
 ├── README.md
 ├── data/
 ├── output/
-└── requirements.txt
-```
+
+
