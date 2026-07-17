@@ -35,6 +35,19 @@ Features:
 * Displays the DNA sequence and RNA sequence in a formatted report.
 * Shows an error message for invalid DNA sequences.
 
+# 04. Protein Translator
+
+Features:
+
+* Accepts a DNA sequence from the user.
+* Converts lowercase input to uppercase automatically.
+* Validates the DNA sequence.
+* Converts DNA into RNA by replacing **T** with **U**.
+* Splits RNA sequence into codons (groups of three nucleotides).
+* Translates RNA codons into amino acids using a codon dictionary.
+* Handles stop codons during translation.
+* Displays DNA, RNA, and protein sequences in a formatted report.
+
 
 # Folder Structure
 
@@ -45,6 +58,6 @@ BioGenome_Studio/
 ├── 03_DNA_RNA_Converter.py
 ├── README.md
 ├── data/
-├── output/
+
 
 
