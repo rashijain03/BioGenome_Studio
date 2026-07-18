@@ -90,6 +90,23 @@ Features:
 * Displays DNA sequence, motif, motif positions, and total occurrences in a formatted report.
 * Shows an appropriate message if the motif is not found.
 
+# 08. K-mer Analyzer
+
+Features:
+
+* Accepts a DNA sequence from the user.
+* Accepts the K-mer size from the user.
+* Converts lowercase input to uppercase automatically.
+* Validates the DNA sequence.
+* Checks for empty DNA sequence.
+* Validates the K-mer size.
+* Generates all possible K-mers from the DNA sequence.
+* Counts the frequency of each unique K-mer using a dictionary.
+* Displays the frequency of each K-mer in a formatted report.
+* Displays the total number of unique K-mers found.
+* Displays the total number of K-mers generated.
+* Shows appropriate messages for invalid DNA sequences and invalid K-mer sizes.
+
 # Folder Structure
 
 
@@ -102,6 +119,7 @@ BioGenome_Studio/
 ├── 05_ORF_Finder.py
 ├── 06_Mutation_Variant_Detector.py
 ├── 07_DNA_Motif_Finder.py
+├── 08_Kmer_Analyzer.py
 ├── README.md
 ├── data/
 
