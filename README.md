@@ -62,6 +62,20 @@ Features:
 * Displays the DNA sequence, ORF sequence, and ORF length in a formatted report.
 * Shows appropriate messages if the start codon or stop codon is not found.
 
+# 06. Mutation Variant Detector
+
+Features:
+
+* Accepts the original DNA sequence and mutated DNA sequence from the user.
+* Converts lowercase input to uppercase automatically.
+* Validates both DNA sequences.
+* Checks whether both DNA sequences have the same length.
+* Compares the DNA sequences nucleotide by nucleotide.
+* Detects mutation positions.
+* Displays the original and mutated nucleotides for each mutation.
+* Counts the total number of mutations.
+* Displays appropriate messages for invalid DNA sequences and different sequence lengths.
+
 # Folder Structure
 
 BioGenome_Studio/
