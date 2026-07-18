@@ -76,13 +76,32 @@ Features:
 * Counts the total number of mutations.
 * Displays appropriate messages for invalid DNA sequences and different sequence lengths.
 
+# 07. DNA Motif Finder
+
+Features:
+
+* Accepts a DNA sequence and motif from the user.
+* Converts lowercase input to uppercase automatically.
+* Validates both DNA sequence and motif.
+* Searches for the given motif inside the DNA sequence.
+* Identifies all positions where the motif occurs.
+* Stores motif positions for analysis.
+* Counts the total number of motif occurrences.
+* Displays DNA sequence, motif, motif positions, and total occurrences in a formatted report.
+* Shows an appropriate message if the motif is not found.
+
 # Folder Structure
+
 
 BioGenome_Studio/
 │
 ├── 01_Genome_Quality_Analyzer.py
 ├── 02_FASTA_File_Explorer.py
 ├── 03_DNA_RNA_Converter.py
+├── 04_Protein_Translator.py
+├── 05_ORF_Finder.py
+├── 06_Mutation_Variant_Detector.py
+├── 07_DNA_Motif_Finder.py
 ├── README.md
 ├── data/
 
