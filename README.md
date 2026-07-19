@@ -1,149 +1,85 @@
 # 🧬 BioGenome Studio
 
-A collection of Python-based bioinformatics projects developed while learning Python for Genomic Data Science.
+A Python-based bioinformatics toolkit that integrates multiple genome analysis utilities into a unified command-line application.
 
-This repository contains beginner-friendly tools for DNA sequence analysis, FASTA file handling, genome analysis, mutation detection, motif discovery, K-mer analysis, protein translation, and genome visualization.
+## 📖 About the Project
 
-## Completed Projects
+BioGenome Studio is a Python-based bioinformatics toolkit developed to demonstrate the use of Python for solving fundamental bioinformatics problems. It integrates multiple genome analysis utilities into a single menu-driven pipeline, allowing users to perform common DNA sequence analysis tasks from one centralized application.
 
-# 01. Genome Quality Analyzer
-
-Features:
-
-* Validates DNA sequences.
-* Counts A, T, G, and C nucleotides.
-* Calculates GC content.
-* Calculates AT content.
-* Displays a formatted analysis report.
-
-# 02. FASTA File Explorer
-
-Features:
-
-* Reads a FASTA file.
-* Extracts the sequence ID.
-* Reads the DNA sequence.
-* Calculates the sequence length.
-* Displays the sequence information in a formatted report.
-
-# 03. DNA RNA Converter
-
-Features:
-
-* Accepts a DNA sequence from the user.
-* Converts lowercase input to uppercase automatically.
-* Validates the DNA sequence.
-* Converts DNA into RNA by replacing **T** with **U**.
-* Displays the DNA sequence and RNA sequence in a formatted report.
-* Shows an error message for invalid DNA sequences.
-
-# 04. Protein Translator
-
-Features:
-
-* Accepts a DNA sequence from the user.
-* Converts lowercase input to uppercase automatically.
-* Validates the DNA sequence.
-* Converts DNA into RNA by replacing **T** with **U**.
-* Splits RNA sequence into codons (groups of three nucleotides).
-* Translates RNA codons into amino acids using a codon dictionary.
-* Handles stop codons during translation.
-* Displays DNA, RNA, and protein sequences in a formatted report.
-
-# 05. ORF Finder
-
-Features:
-
-* Accepts a DNA sequence from the user.
-* Converts lowercase input to uppercase automatically.
-* Validates the DNA sequence.
-* Finds the start codon (**ATG**).
-* Searches for stop codons (**TAA**, **TAG**, **TGA**).
-* Extracts the Open Reading Frame (ORF).
-* Calculates the ORF length.
-* Displays the DNA sequence, ORF sequence, and ORF length in a formatted report.
-* Shows appropriate messages if the start codon or stop codon is not found.
-
-# 06. Mutation Variant Detector
-
-Features:
-
-* Accepts the original DNA sequence and mutated DNA sequence from the user.
-* Converts lowercase input to uppercase automatically.
-* Validates both DNA sequences.
-* Checks whether both DNA sequences have the same length.
-* Compares the DNA sequences nucleotide by nucleotide.
-* Detects mutation positions.
-* Displays the original and mutated nucleotides for each mutation.
-* Counts the total number of mutations.
-* Displays appropriate messages for invalid DNA sequences and different sequence lengths.
-
-# 07. DNA Motif Finder
-
-Features:
-
-* Accepts a DNA sequence and motif from the user.
-* Converts lowercase input to uppercase automatically.
-* Validates both DNA sequence and motif.
-* Searches for the given motif inside the DNA sequence.
-* Identifies all positions where the motif occurs.
-* Stores motif positions for analysis.
-* Counts the total number of motif occurrences.
-* Displays DNA sequence, motif, motif positions, and total occurrences in a formatted report.
-* Shows an appropriate message if the motif is not found.
-
-# 08. K-mer Analyzer
-
-Features:
-
-* Accepts a DNA sequence from the user.
-* Accepts the K-mer size from the user.
-* Converts lowercase input to uppercase automatically.
-* Validates the DNA sequence.
-* Checks for empty DNA sequence.
-* Validates the K-mer size.
-* Generates all possible K-mers from the DNA sequence.
-* Counts the frequency of each unique K-mer using a dictionary.
-* Displays the frequency of each K-mer in a formatted report.
-* Displays the total number of unique K-mers found.
-* Displays the total number of K-mers generated.
-* Shows appropriate messages for invalid DNA sequences and invalid K-mer sizes.
-
-# 09. Genome Visualization Dashboard
-
-Features:
-
-* Accepts a DNA sequence from the user.
-* Converts lowercase input to uppercase automatically.
-* Validates the DNA sequence.
-* Checks for an empty DNA sequence.
-* Counts the occurrences of A, T, G, and C nucleotides.
-* Calculates the sequence length.
-* Calculates GC content.
-* Calculates AT content.
-* Displays the DNA analysis in a formatted report.
-* Generates a bar chart showing nucleotide counts.
-* Generates a pie chart showing nucleotide percentage distribution.
-* Shows appropriate messages for invalid DNA sequences.
+The toolkit includes modules for DNA validation, FASTA file exploration, DNA to RNA conversion, protein translation, ORF detection, mutation analysis, motif discovery, k-mer analysis, and genome visualization. Each module is designed to provide practical experience with computational biology concepts while following a clean and modular project structure.
 
 
-# Folder Structure
+## ✨ Key Features
 
+- Integrated menu-driven BioGenome Pipeline
+- DNA sequence validation and quality analysis
+- FASTA file parsing and sequence exploration
+- DNA to RNA conversion
+- Protein translation using the standard genetic code
+- Open Reading Frame (ORF) detection
+- Mutation and variant detection
+- DNA motif identification
+- K-mer frequency analysis
+- Genome visualization using bar and pie charts
+- Modular and organized project structure
 
-BioGenome_Studio/
+## 🧬 Bioinformatics Modules
 
-├── .gitignore
-├── 01_Genome_Quality_Analyzer.py
-├── 02_FASTA_File_Explorer.py
-├── 03_DNA_RNA_Converter.py
-├── 04_Protein_Translator.py
-├── 05_ORF_Finder.py
-├── 06_Mutation_Variant_Detector.py
-├── 07_DNA_Motif_Finder.py
-├── 08_Kmer_Analyzer.py
-├── 09_Genome_Visualization_Dashboard.py
-├── README.md
-├── data/
+- **Genome Quality Analyzer** — DNA validation, nucleotide counts, GC and AT content.
+- **FASTA File Explorer** — Reads FASTA files and extracts sequence information.
+- **DNA RNA Converter** — Converts DNA sequences into RNA.
+- **Protein Translator** — Translates DNA into protein sequences.
+- **ORF Finder** — Detects Open Reading Frames.
+- **Mutation Variant Detector** — Identifies nucleotide mutations.
+- **DNA Motif Finder** — Searches for DNA motifs.
+- **K-mer Analyzer** — Calculates k-mer frequencies.
+- **Genome Visualization Dashboard** — Displays nucleotide distribution using bar and pie charts.
 
+## 📂 Repository Contents
 
+- **BioGenome_Pipeline.py** – Main entry point for launching all bioinformatics modules.
+- **projects/** – Contains the individual bioinformatics project scripts.
+- **data/** – Stores sample input files used by the projects.
+- **screenshots/** – Contains images used in this documentation.
+- **README.md** – Project documentation and usage guide.
 
+## 🚀 Getting Started
+
+1. Download or clone this repository.
+2. Open the **BioGenome_Studio** folder in Visual Studio Code.
+3. Make sure Python 3 is installed on your system.
+4. Run the pipeline:
+```bash
+python BioGenome_Pipeline.py
+```
+5. Select a module from the menu to begin using the toolkit.
+
+## 💻 Technologies Used
+
+- Python 3
+- Visual Studio Code
+- GitHub
+- Matplotlib
+
+## 📸 Screenshots
+
+### BioGenome Pipeline
+![BioGenome Pipeline](/screenshots/pipeline_menu.png)
+
+### Genome Quality Analyzer
+![Genome Quality Analyzer](/screenshots/genome_quality_analyzer.png)
+
+### FASTA File Explorer
+![FASTA File Explorer](/screenshots/fasta_file_explorer.png)
+
+### Genome Visualization Dashboard
+![Genome Visualization Dashboard - Bar Chart]
+(/screenshots/genome_visualization_dashboard_bar.png)
+
+![Genome Visualization Dashboard - Pie Chart]
+(/screenshots/genome_visualization_dashboard_pie.png)
+
+## 👩‍💻 Author
+
+**Rashi Jain**  
+Biotechnology Undergraduate | Exploring the Intersection of Wet Lab Science and Computational Biology

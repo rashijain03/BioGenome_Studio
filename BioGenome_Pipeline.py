@@ -2,7 +2,7 @@ import subprocess
 import sys
 
 print("=" * 45)
-print("        BioGenome Pipeline")
+print("        BioGenome Studio")
 print("=" * 45)
 
 while True:
