@@ -1,6 +1,8 @@
-# BioGenome_Studio
+# 🧬 BioGenome Studio
 
-A collection of Python-based bioinformatics projects developed while learning Python for genomic data science. This repository contains beginner-friendly tools for DNA sequence analysis, FASTA file handling, genome analysis, and other bioinformatics applications.
+A collection of Python-based bioinformatics projects developed while learning Python for Genomic Data Science.
+
+This repository contains beginner-friendly tools for DNA sequence analysis, FASTA file handling, genome analysis, mutation detection, motif discovery, K-mer analysis, protein translation, and genome visualization.
 
 ## Completed Projects
 
