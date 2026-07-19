@@ -107,6 +107,24 @@ Features:
 * Displays the total number of K-mers generated.
 * Shows appropriate messages for invalid DNA sequences and invalid K-mer sizes.
 
+# 09. Genome Visualization Dashboard
+
+Features:
+
+* Accepts a DNA sequence from the user.
+* Converts lowercase input to uppercase automatically.
+* Validates the DNA sequence.
+* Checks for an empty DNA sequence.
+* Counts the occurrences of A, T, G, and C nucleotides.
+* Calculates the sequence length.
+* Calculates GC content.
+* Calculates AT content.
+* Displays the DNA analysis in a formatted report.
+* Generates a bar chart showing nucleotide counts.
+* Generates a pie chart showing nucleotide percentage distribution.
+* Shows appropriate messages for invalid DNA sequences.
+
+
 # Folder Structure
 
 
@@ -120,6 +138,7 @@ BioGenome_Studio/
 ├── 06_Mutation_Variant_Detector.py
 ├── 07_DNA_Motif_Finder.py
 ├── 08_Kmer_Analyzer.py
+├── 09_Genome_Visualization_Dashboard.py
 ├── README.md
 ├── data/
 
