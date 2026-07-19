@@ -26,39 +26,39 @@ while True:
 
     elif choice == "1":
         print("\nLaunching Genome Quality Analyzer...")
-        subprocess.run([sys.executable, "01_Genome_Quality_Analyser.py"])
+        subprocess.run([sys.executable, "projects/01_Genome_Quality_Analyser.py"])
 
     elif choice == "2":
         print("\nLaunching FASTA File Explorer...")
-        subprocess.run([sys.executable, "02_FASTA_File_Explorer.py"])
+        subprocess.run([sys.executable, "projects/02_FASTA_File_Explorer.py"])
 
     elif choice == "3":
         print("\nLaunching DNA RNA Converter...")
-        subprocess.run([sys.executable, "03_DNA_RNA_Converter.py"])
+        subprocess.run([sys.executable, "projects/03_DNA_RNA_Converter.py"])
 
     elif choice == "4":
         print("\nLaunching Protein Translator...")
-        subprocess.run([sys.executable, "04_Protein_Translator.py"])
+        subprocess.run([sys.executable, "projects/04_Protein_Translator.py"])
 
     elif choice == "5":
         print("\nLaunching ORF Finder...")
-        subprocess.run([sys.executable, "05_ORF_Finder.py"])
+        subprocess.run([sys.executable, "projects/05_ORF_Finder.py"])
 
     elif choice == "6":
         print("\nLaunching Mutation Variant Detector...")
-        subprocess.run([sys.executable, "06_Mutation_Variant_Detector.py"])
+        subprocess.run([sys.executable, "projects/06_Mutation_Variant_Detector.py"])
 
     elif choice == "7":
         print("\nLaunching DNA Motif Finder...")
-        subprocess.run([sys.executable, "07_DNA_Motif_Finder.py"])
+        subprocess.run([sys.executable, "projects/07_DNA_Motif_Finder.py"])
 
     elif choice == "8":
         print("\nLaunching K-mer Analyzer...")
-        subprocess.run([sys.executable, "08_Kmer_Analyzer.py"])
+        subprocess.run([sys.executable, "projects/08_Kmer_Analyzer.py"])
 
     elif choice == "9":
         print("\nLaunching Genome Visualization Dashboard...")
-        subprocess.run([sys.executable, "09_Genome_Visualization_Dashboard.py"])
+        subprocess.run([sys.executable, "projects/09_Genome_Visualization_Dashboard.py"])
 
     else:
         print("\nInvalid choice! Please enter a number between 0-9.")
