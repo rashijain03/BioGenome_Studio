@@ -131,7 +131,8 @@ Features:
 
 
 BioGenome_Studio/
-│
+
+├── .gitignore
 ├── 01_Genome_Quality_Analyzer.py
 ├── 02_FASTA_File_Explorer.py
 ├── 03_DNA_RNA_Converter.py
