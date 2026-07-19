@@ -61,24 +61,6 @@ python BioGenome_Pipeline.py
 - GitHub
 - Matplotlib
 
-## 📸 Screenshots
-
-### BioGenome Pipeline
-![BioGenome Pipeline](/screenshots/pipeline_menu.png)
-
-### Genome Quality Analyzer
-![Genome Quality Analyzer](/screenshots/genome_quality_analyzer.png)
-
-### FASTA File Explorer
-![FASTA File Explorer](/screenshots/fasta_file_explorer.png)
-
-### Genome Visualization Dashboard
-![Genome Visualization Dashboard - Bar Chart]
-(/screenshots/genome_visualization_dashboard_bar.png)
-
-![Genome Visualization Dashboard - Pie Chart]
-(/screenshots/genome_visualization_dashboard_pie.png)
-
 ## 👩‍💻 Author
 
 **Rashi Jain**  
